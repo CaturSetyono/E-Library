@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Library</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <figure id="logo">
+        <a href="/index.html"
+          ><img src="icon/E-Lib.png" alt="Logo E-Library" class="img-logo"
+        /></a>
+      </figure>
+      <nav>
+        <ul id="navbar">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="#info">Info</a></li>
+          <li><a href="#book">Book</a></li>
+          <li><a href="#myTable">Reference</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="info" class="info">
+        <img src="image/Banner.png" alt="banner-info" class="img-banner" />
+      </section>
+      <section id="book" class="book">
+        <div class="container">
+          <div id="card" class="card">
+            <figure>
+              <img src="image/Trail.jpeg" alt="book" class="img-book" />
+              <figcaption onclick="addReference(this)">
+                <img src="icon/star-fill.svg" alt="svg" class="star" />
+              </figcaption>
+              <article>
+                <h3 class="title">Trail</h3>
+                <p>
+                  "Trail" mengisahkan petualangan epik melintasi alam liar yang
+                  menantang, menyingkap kekuatan sejati persahabatan dan tekad
+                  manusia.<a href="https://www.link.com" class="link">
+                    selengkapnya.</a
+                  >
+                </p>
+              </article>
+            </figure>
+          </div>
+          <div id="card" class="card">
+            <figure>
+              <img src="image/Tral.jpeg" alt="book" class="img-book" />
+              <figcaption onclick="addReference(this)">
+                <img src="icon/star-fill.svg" alt="svg" class="star" />
+              </figcaption>
+              <article>
+                <h3 class="title">The Tral</h3>
+                <p>
+                  "The Tral" mengungkap perjalanan penuh misteri dan keajaiban
+                  di dunia yang belum terjamah, di mana setiap langkah membawa
+                  penemuan baru dan rahasia tersembunyi.
+                  <a href="https://www.link.com" class="link"> selengkapnya.</a>
+                </p>
+              </article>
+            </figure>
+          </div>
+          <div id="card" class="card">
+            <figure>
+              <img src="image/cfl.jpeg" alt="book" class="img-book" />
+              <figcaption onclick="addReference(this)">
+                <img src="icon/star-fill.svg" alt="svg" class="star" />
+              </figcaption>
+              <article>
+                <h3 class="title">Code for Life</h3>
+                <p>
+                  ‘Code for Life’ membawa pembaca pada perjalanan menakjubkan
+                  untuk memahami bagaimana kode menjadi nadi kehidupan digital
+                  kita.” 📘<a href="https://www.link.com" class="link">
+                    selengkapnya.</a
+                  >
+                </p>
+              </article>
+            </figure>
+          </div>
+          <div id="card" class="card">
+            <figure>
+              <img src="image/AI.jpeg" alt="book" class="img-book" />
+              <figcaption onclick="addReference(this)">
+                <img src="icon/star-fill.svg" alt="svg" class="star" />
+              </figcaption>
+              <article>
+                <h3 class="title">Human and AI</h3>
+                <p>
+                  “Menjelajahi sinergi antara kemanusiaan dan kecerdasan buatan,
+                  buku ini membuka wawasan baru tentang masa depan yang kita
+                  ciptakan bersama.”<a href="https://www.link.com" class="link">
+                    selengkapnya.</a
+                  >
+                </p>
+              </article>
+            </figure>
+          </div>
+        </div>
+        <aside id="aside" class="aside">
+          <div id="card" class="card">
+            <figure>
+              <img src="image/AI.jpeg" alt="book" class="img-book" />
+              <figcaption onclick="addReference(this)">
+                <img src="icon/star-fill.svg" alt="svg" class="star" />
+              </figcaption>
+              <article>
+                <h3 class="title">Human and AI</h3>
+                <p>
+                  “Menjelajahi sinergi antara kemanusiaan dan kecerdasan buatan,
+                  buku ini membuka wawasan baru tentang masa depan yang kita
+                  ciptakan bersama.”<a href="https://www.link.com" class="link">
+                    selengkapnya.</a
+                  >
+                </p>
+              </article>
+            </figure>
+          </div>
+          <table id="myTable">
+            <tr>
+              <th>Reference</th>
+            </tr>
+          </table>
+        </aside>
+      </section>
+    </main>
+    <footer>
+      E-Library from Catur Setyono || DBS x Dicoding Belajar Pemrograman 2024
+    </footer>
+    <script src="script/script.js"></script>
+  </body>
+</html>
